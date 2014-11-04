@@ -1,0 +1,178 @@
+body{
+	background-image: url("back.jpg");
+	font-family: "Helvetica Neue",Arial,'Liberation Sans',FreeSans,'Hiragine Sans GB',sans-serif;
+	/*设置网页字体，上面每个逗号中间的都代表一种字体 浏览器先查找第一个字体，如果有就用，没有就继续查找后面的*/
+}
+a{
+	color: gray;
+	text-decoration: none;
+}
+#head{
+	width: 960px;
+	margin: auto;
+	color: white;
+	border-bottom: dashed 1px white;
+	margin-bottom: 5px;
+	/*只给底部加边框*/
+}
+#wrapper{
+	margin: auto;
+	width: 960px;
+	margin-top: 20px;
+	
+	
+}
+.main{
+	width: 630px;
+	background-color: gray;
+	float: left;
+	margin-right: 20px;
+	border-radius: 8px;
+	padding: 20px;
+}
+.clear{
+	clear: both;
+	/*清除左右浮动*/
+}
+.side{
+	width: 250px;
+	background-color: gray;
+	float: right;
+	border-radius: 8px;
+	padding: 10px;
+
+}
+#footer{
+	height: 60px;
+	width: 960px;
+	margin: auto;
+	border-top: dashed 1px black;
+	margin-top: 20px;
+
+}
+.logo_title{
+	float: left;
+}
+.navi{
+	float: right;
+}
+.navi ul{
+	list-style: none;
+	/*去除列表中item默认的小圆点*/
+	margin-top: 90px;
+	/*移动列表*/
+}
+.navi ul li{
+	display: inline-block;
+     /*让各个item不换行*/
+	margin-right: 20px;
+	/*每个item的右间距*/
+}
+.navi ul li a{
+	color: black;
+	border: solid 1px white;
+	/*给每个链接加边框，实线 线框 线的颜色*/
+	padding: 4px;
+	padding-left: 14px;
+	padding-right: 14px;
+	/*内容与边框的内部间距*/
+	border-radius:6px;
+	/*给边框倒角*/
+	/*设置item中链接a的属性*/
+}
+.item{
+	border-bottom: dashed 1px green;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.item_img{
+	float: left;
+	width: 100px;
+    height: 60px;
+
+}
+.item_img img{
+	width: 80px;
+	height: 60px;
+}
+.item_content{
+	padding-left: 100px;
+}
+.item_info{
+	font-size: 12px;
+	font-style: italic;
+	margin: 0;
+	color: black;
+}
+.item_content h3{
+	font-size: 16px;
+	color: #a5612d;
+	margin:0;
+}
+.item_desc{
+	font-size: 14px;
+	margin: 0;
+	color: white;
+	margin-top: 10px;
+	border-left: solid 1px yellow;
+	padding-left: 10px;
+}
+.author_img{
+	width: 120px;
+	margin: auto;
+}
+.author_img img{
+	width: 60px;
+	height: 80px;
+	border: solid 1px #ccc;
+	border-radius: 6px;
+}
+
+.author_desc{
+	text-align: center;
+	border:solid 1px #ccc ;
+	border-radius: 8px;
+	background-color: orange;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+.author_desc h4{
+	margin-bottom: 10px;
+	margin: 0;
+	font-size: 16px;
+
+}
+.author_desc p{
+   font-size: 14px;
+   color: red;
+}
+.top_article h3{
+	font-size: 20px;
+	font-style: italic;
+	border-bottom: dashed 1px #ccc;
+	color: 999;
+
+}
+.top_article ul{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 10px;
+}
+.top_article ul li{
+	margin-top: 10px;color: green;
+}
+.site_info{
+	margin-top: 30px;
+	border-top: solid 1px #ccc;
+}
+.site_info p{
+	font-size: 14px;
+	color: yellow;
+	padding-left: 30px;
+	margin: 0;
+	margin-top: 10px;
+}
